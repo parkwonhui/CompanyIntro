@@ -158,9 +158,10 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: #FDCC52;
+/*  background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);*/
 }
 
 header.masthead .header-content {
@@ -435,4 +436,33 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+
+#intro{
+  margin-bottom: 1%;
+}
+
+#intro-text{
+  font-size:23px;
+  /*font-family: 'Poor Story', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;*/
+  font-family: 'Noto Serif KR', serif;
+  margin:20px;
+  display:inline-block;
+  text-align: center;
+  width:40%;
+}
+#intro-image{
+  margin:20px;
+  width:50%;
+  text-align: center;
+}
+
+#naver-map-div{
+  margin: 40px;
+}
+ #naver-map{
+    margin:auto;
 }
